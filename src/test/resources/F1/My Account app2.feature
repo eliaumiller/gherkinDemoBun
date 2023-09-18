@@ -13,7 +13,7 @@ Feature: feature4
 	Scenario Outline: sda11
 		Given <param1>
 		When  <param2>
-		Then sdf
+		Then <param2>
 
 	Examples:
 		| param1 | param2 |
