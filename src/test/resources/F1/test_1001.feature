@@ -4,7 +4,7 @@ Feature: feature2
 		When one
 		Then one
 
-	Scenario: Approve2222
+	Scenario: Approve222
 		Given numberEven
 		When three
 		Then three

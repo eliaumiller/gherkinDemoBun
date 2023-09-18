@@ -10,7 +10,7 @@ Feature: feature4
 		Then df2
 
 
-	Scenario Outline: sda11
+	Scenario Outline: sda112
 		Given <param1>
 		When  <param2>
 		Then <param2>

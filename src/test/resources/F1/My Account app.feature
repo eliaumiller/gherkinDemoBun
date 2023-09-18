@@ -10,7 +10,7 @@ Feature: feature3
 		| b      | 2      |
 		| c      | 3      |
 		
-	Scenario Outline: sda112
+	Scenario Outline: sda1122222222
 		Given <param1>
 		When  <param2>
 		Then <param2>
