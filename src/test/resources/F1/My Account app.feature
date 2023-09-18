@@ -21,7 +21,3 @@ Feature: apscen21
 		| b      | 2      |
 		| c      | 3      |
 		
-	Scenario: emiller11
-		Given numberEven
-		When three
-		Then three
