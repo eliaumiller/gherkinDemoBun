@@ -1,4 +1,4 @@
-Feature: apscen21
+Feature: feature1
 	Scenario Outline: sda1111111111111
 		Given <param1>
 		When  <param2>

@@ -1,4 +1,4 @@
-Feature: apscen21
+Feature: feature4
 	Scenario: app11
 		Given dsf
 		When df1
