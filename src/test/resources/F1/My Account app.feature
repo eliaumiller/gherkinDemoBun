@@ -21,3 +21,7 @@ Feature: apscen21
 		| b      | 2      |
 		| c      | 3      |
 		
+	Scenario: Approve555
+		Given numberEven
+		When three
+		Then three
