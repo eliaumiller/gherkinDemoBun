@@ -1,22 +1,20 @@
-Feature: feature4
-	Scenario: feature4_scn1
-		Given dsf
-		When df1
-		Then df2
+Feature: Google Searching changed by Riki
+  As a web surfer, I want to search Google, so that I can learn new things.
 
-	Scenario: feature4_scn2
-		Given dsf
-		When df1
-		Then df2
+   # Author: Andy
+  Scenario: Simple Google search
+    Given a web browser is on the Google page
+    When the search phrase "panda" is entered
+    Then results for "panda" are shown
+    And the related results include Panda Express
 
+  Scenario Outline: Simple Google searches
+    Given a web browser is on the Google page
+    When the search phrase "<phrase>" is entered
+    Then results for "<phrase>" are shown
+    And the related results include "<related>"
 
-	Scenario feature4_scn3
-		Given <param1>
-		When  <param2>
-		Then <param2>
-
-	Examples:
-		| param1 | param2 |
-		| a      | 1      |
-		| b      | 2      |
-		| c      | 3      |
+    Examples: Animals
+      | phrase   | related       |
+      | panda    | Panda Express |
+      | elephant | Elephant Man  |
