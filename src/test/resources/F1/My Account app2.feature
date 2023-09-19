@@ -1,16 +1,16 @@
 Feature: feature4
-	Scenario: feature4:scn1
+	Scenario: feature4_scn1
 		Given dsf
 		When df1
 		Then df2
 
-	Scenario: feature4:scn2
+	Scenario: feature4_scn2
 		Given dsf
 		When df1
 		Then df2
 
 
-	Scenario feature4:scn3
+	Scenario feature4_scn3
 		Given <param1>
 		When  <param2>
 		Then <param3>
