@@ -1,27 +1,12 @@
 Feature: feature3
-	Scenario Outline: sda11
-		Given <param1>
-		When  <param2>
-		Then <param2>
-
-	Examples:
-		| param1 | param2 |
-		| a      | 1      |
-		| b      | 2      |
-		| c      | 3      |
 		
-	Scenario Outline: sda1122222222
-		Given <param1>
-		When  <param2>
-		Then <param2>
-
-	Examples:
-		| param1 | param2 |
-		| a      | 1      |
-		| b      | 2      |
-		| c      | 3      |
-		
-	Scenario: Approve555
+	Scenario: emiller1
 		Given numberEven
+		When three
+		Then three
+
+
+	Scenario: emiller2
+		Given numberEven2
 		When three
 		Then three
