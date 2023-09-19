@@ -1,5 +1,5 @@
 Feature: feature1
-	Scenario Outline: sda1111111111111g
+	Scenario Outline: sda1111111111111g1
 		Given <param1>
 		When  <param2>
 		Then <param2>
@@ -10,7 +10,7 @@ Feature: feature1
 		| b      | 2      |
 		| c      | 3      |
 		
-	Scenario Outline: sda112111g
+	Scenario Outline: sda112111g1
 		Given <param1>
 		When  <param2>
 		Then <param2>
