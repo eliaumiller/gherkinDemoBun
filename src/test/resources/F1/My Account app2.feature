@@ -2,12 +2,12 @@ Feature: feature4
 	Scenario: app11
 		Given dsf
 		When df1
-		Then df2
+		Then df1
 
 	Scenario: emiller11122
 		Given dsf
 		When df1
-		Then df2
+		Then df1
 
 
 	Scenario Outline: sda112
