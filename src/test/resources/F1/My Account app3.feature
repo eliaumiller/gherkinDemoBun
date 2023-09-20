@@ -30,3 +30,8 @@ Feature: feature1
 		Given numberEven
 		When three
 		Then three
+	
+        Scenario: new2
+		Given numberEven
+		When three
+		Then two
