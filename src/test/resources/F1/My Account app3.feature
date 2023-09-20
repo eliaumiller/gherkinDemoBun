@@ -1,4 +1,4 @@
-Feature: feature2
+Feature: feature1-2
 	Scenario Outline: sda1111111111111
 		Given <param1>
 		When  <param2>
