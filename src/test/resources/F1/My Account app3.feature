@@ -21,7 +21,7 @@ Feature: feature1
 		| b      | 2      |
 		| c      | 3      |
 		
-	Scenario: Approve5551111111111111111
+	Scenario: Approve555222222
 		Given numberEven
 		When three
-		Then three
+		Then two
