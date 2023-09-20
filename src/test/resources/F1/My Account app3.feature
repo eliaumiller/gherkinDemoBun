@@ -24,4 +24,4 @@ Feature: feature1-2
 	Scenario: Approve5554444
 		Given numberEven
 		When three
-		Then two
+		Then three
