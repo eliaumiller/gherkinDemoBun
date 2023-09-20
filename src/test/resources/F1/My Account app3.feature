@@ -25,3 +25,8 @@ Feature: feature1-2
 		Given numberEven
 		When three
 		Then three
+
+	Scenario: new1
+		Given numberEven
+		When three
+		Then three
