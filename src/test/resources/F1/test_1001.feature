@@ -1,15 +1,15 @@
 Feature: feature2
-	Scenario: numberStatus
+	Scenario: numberStatus_1
 		Given numberOdd
 		When one
 		Then one
 
-	Scenario: Approve222
+	Scenario: Approve222_1
 		Given numberEven
 		When three
 		Then three
 
-	Scenario Outline: Online
+	Scenario Outline: Online_1
 		Given all
 		When  <param2>
 		Then <param1>
