@@ -7,7 +7,7 @@ Feature: feature2
 	Scenario: Approve222
 		Given numberEven
 		When three
-		Then three
+		Then two
 
 	Scenario Outline: Online
 		Given all
