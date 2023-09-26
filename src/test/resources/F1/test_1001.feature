@@ -2,7 +2,7 @@ Feature: feature2
 	Scenario: numberStatus
 		Given numberOdd
 		When one
-		Then one
+		Then two
 
 	Scenario: Approve1
 		Given numberEven
