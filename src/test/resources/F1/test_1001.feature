@@ -73,6 +73,10 @@ Feature: feature2
 		Given numberEven
 		When 3
 		Then 2
+	Scenario: Approve15
+		Given numberEven
+		When 3
+		Then 2
 
 	Scenario Outline: Online
 		Given all
