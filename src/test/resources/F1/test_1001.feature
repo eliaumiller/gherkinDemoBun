@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID2001REV0.4.0
+@BSPID2001REV0.6.0
 Feature: feature2
 @TSCID1080
 	Scenario: numberStatus
